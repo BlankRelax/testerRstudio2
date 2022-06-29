@@ -1,13 +1,6 @@
-Version: 1.0
+library(dslabs)
+library(tidyverse)
+data(olive)
+head(olive)
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+select(olive, area )
